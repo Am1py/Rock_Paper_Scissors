@@ -22,6 +22,20 @@ def winner_decider(computer,user):
     else:
         print('\nComputer win!')
 
+def game():
+    user = player_choice()
+    computer = computer_choise()
+    c_score = 0
+
+    print("\nYour choice: "+ user)
+    print("Computer choice: "+ computer)
+    winner = winner_decider(computer,user)
+    print(winner)
+
+
+
+game()
+
 
 
 
